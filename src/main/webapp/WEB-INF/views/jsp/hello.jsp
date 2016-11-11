@@ -14,7 +14,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
 	<div class="navbar-header">
-		<a class="navbar-brand" href="#">Spring 3 MVC Project</a>
+		<a class="navbar-brand" href="#">Spring 3 MVC Project    KAREN</a>
 	</div>
   </div>
 </nav>
@@ -24,11 +24,11 @@
 	<h1>${title}</h1>
 	<p>
 		<c:if test="${not empty name}">
-			Hello ${name}
+			Hello Madison College Java Enterprise Class ${name}
 		</c:if>
  
 		<c:if test="${empty name}">
-			Welcome Welcome!
+			Welcome Welcome!  Enjoy this Spring MVC sample application.
 		</c:if>
     </p>
     <p>
